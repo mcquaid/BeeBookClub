@@ -1,0 +1,164 @@
+html,  
+body {  
+        height: 100%;  
+
+} 
+#container {
+
+    /*border: 2px solid lightblue;
+	border-radius: 25px;*/
+    min-height: 100%; 
+    height: auto !important;
+    height: 100%; 
+    margin:0;
+}
+      
+#header, #footer,#content, #nav {
+    margin-bottom: 2px;
+	margin-left:2.5%;
+	margin-right:2.5%;
+	width:95%;
+}
+
+#header {
+	height: 100px;
+}
+          
+#headertext { 
+    font-size: 50px; 
+    text-align: center;
+
+}
+
+div#search-box {
+	margin: 3px 3px 3px 3px;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 279px;
+    margin: 3px;
+	right: 0px;
+}
+
+img{
+position: absolute;
+width: 100px;
+height:100px;
+left:2.5%;
+
+}
+
+ul#navmenu { 
+    float: left; 
+    list-style-type: none; 
+    width:100%
+
+}
+
+ul#navmenu li { 
+    float: left ;
+    padding-left: 2.5%;
+}
+
+ul#navmenu li a { 
+    float: left ; 
+    text-decoration: none; 
+    padding: 5px; 
+    color:green;
+	border: 1px solid lightblue;
+	border-radius: 15px;
+}
+      
+ul#navmenu li a:hover { 
+    text-decoration: underline;
+}
+
+
+
+#footer { 
+	clear: both;
+    position: absolute;
+	bottom: 15px;
+    border: 1px solid lightblue;
+
+	text-align: center;
+	color: blue;
+}
+
+/*background-color*/
+
+body{
+/*background-color: lightgray;*/
+
+
+}
+
+#header{
+background-color: steelblue;
+
+
+}
+
+#navmenu li a{
+background-color: lightblue;
+}
+
+#contentheader{
+background-color: lightblue;
+
+}
+
+#footer{
+background-color: lightblue;
+}
+
+/*images*/
+
+
+/*font*/
+#headertext { 
+    font-family: Verdana; 
+
+}
+
+ul#navmenu li a { 
+	font-family: Verdana;
+}
+
+
+
+/*font size*/
+#headertext { 
+    font-size: 50px; 
+
+}
+
+ul#navmenu li a { 
+	font-size: 14px;
+}
+
+#footer { 
+    font-size: 14px; 
+
+}
+
+
+/*font color*/
+      
+#headertext { 
+    color: white;
+
+}
+
+ul#navmenu li a { 
+	color: darkblue;
+}
+
+#footer { 
+	color: blue;
+}
+
+/*font-weight*/
+ul#navmenu li a { 
+	font-weight: bold;
+}

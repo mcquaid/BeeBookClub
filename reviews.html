@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/bookClubMain.css" />
+  <link rel="stylesheet" type="text/css" href="css/reviews.css" />
+  <script src="javascript/bookClubJS.js" type="text/javascript"></script>
+  <script src="javascript/review.js" type="text/javascript"></script>
+  <title>The Bee Book Club</title>
+
+</head>
+
+<body>
+
+  <div id='container'>
+
+    <div id='header'>
+		<img src="images/logo1.jpg" alt = "The Book Club Logo" width = "100" height = "100"/>
+	    <h1 id='headertext'> The Bee Book Club</h1>
+		
+	    <div id='search-box'>
+          <div class="searchbox">
+            <input type="text" name="search" /><input type="submit" value="Search" />
+          </div>
+        </div>
+		
+    </div>
+
+    <div id='nav'>
+  	  <ul id="navmenu">
+  	    <li><a href="index.html"> Home </a></li>
+  	    <li><a href="authors.html"> Meet The Authors </a></li>
+		<li><a href="reviews.html"> Reviews </a></li>
+		<li><a href="events.html"> Book Events </a></li>
+  		<li><a href="contest.html"> Short Story Contest </a></li>
+  		<li><a href="join.html"> Join the Club </a></li>
+		<li><a href="contact.html"> Contact Us </a></li>
+  	  </ul>
+    </div>
+
+
+
+<div id='content'>
+
+<div id='form'>
+<form id="booktext" action="">
+
+
+<p>Choose a Book:</p>
+<select name="example" size="1" onchange="showtext()">
+
+<option value="_">Of Mice and Men</option>
+<option value="_">Hunger Games</option>
+<option value="_">A Game of Thrones</option>
+<option value="_">Nineteen eighty four</option>
+
+
+</select>
+
+
+
+
+<div id='textarea'>
+<br/>
+<textarea rows=5 cols=50 wrap="virtual" name="text">
+</textarea>
+
+
+<script type="text/javascript">
+
+var shortcut=document.getElementById("booktext");
+var descriptions=new Array()
+
+descriptions[0]="Of Mice and Men is the story of two men, Lenny and George, who have been kicked out of their town because of an incident. While they dream of owning their own home one day, they make a living by traveling to different farms to work for $50 dollars a month. While at the recent farm, Lenny accidently kills the bosses son's wife when she discovered that he had killed a pup by taking it away from his momma. Lenny runs back to the forest where George told him to wait if anything happened, and the rest of the workers convince George to shoot Lenny, because he's mentally ill, can't take care of himself, and has to rely on George to survive, and George can't take care of him forever."
+descriptions[1]="Katniss Everdeen is a 16 year old living in a future nation called Panem. The Capitol rules 12 surrounding districts (like a doughnut) and are like dictators. Because the districts rebelled, each has to send two people to compete against each other. In order for someone to win, they have to be the last one living in the arena, which can be anything from a desert to a jungle to a cold wasteland. Katniss is chosen and has to compete, and the book is about how she tries to survive"
+descriptions[2]="As warden of the north, Lord Eddard Stark counts it a curse when King Robert bestows on him the office of the Hand. His honour weighs him down at court where a true man does what he will, not what he must ... and a dead enemy is a thing of beauty. The old gods have no power in the south, Stark's family is split and there is treachery at court. Worse, a vengeance mad boy has grown to maturity in exile in the Free Cities beyong the sea. Heir of the mad Dragon King deposed by Robert, he claims the Iron Throne."
+descriptions[3]="In the year 1984, rocket bombs and rats prey on the inhabitants of the crumbling metropolis of London. Far away on the Malabar Front, a seemingly interminable war rages against Eastasia. The Ministry of Truth broadcasts ceaselessly to the population via its inescapable network of telescreens. These devices, which pervade all aspects of peoples' lives, are also capable of monitoring their every word and action."
+
+shortcut.text.value=descriptions[shortcut.example.selectedIndex]
+
+function showtext(){
+
+shortcut.text.value=descriptions[shortcut.example.selectedIndex]
+
+}
+
+
+</script>
+
+
+</form>
+
+	 <div id="right_sidebar">
+
+	<a href="http://www.themanbookerprize.com/">Man Booker Prize</a><br/><br/><br/>
+	<a href="http://www.waterstones.com/waterstonesweb/">Waterstones</a><br/><br/>
+	<a href="http://www.easons.com/">Easons Online</a><br/><br/>
+	<a href="http://www.amazon.com/">Amazon</a>
+
+	</div>
+	</div>
+	</div>
+	</div>
+
+    <div id='footer'>
+		<p>&copy; 2012 The Bee Book Club. All rights reserved</p>
+
+    </div>
+
+   <!-- container -->
+
+
+</body>
+</html>

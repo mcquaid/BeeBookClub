@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    padding: 0;
+	background-image: url("../images/bg6.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+#content{ 
+    position: relative;
+	float: left; 
+	height: 70%;
+
+}
+                    
+#contentheader { 
+    font-size: 20px; 
+	font-weight: bold;
+    font-family: Verdana;
+    text-align: center;
+    color: steelblue;
+}
+
+div #form_join_column1
+{
+	float: left;
+
+
+}
+ 
+div #form_join_column2,
+div #form_join_column3
+{
+	float: left;
+
+}
+
+
+
+
+div #form_join_column1{
+	width: 40%
+}
+
+div #form_join_column2{
+	width: 28%
+}
+
+div #form_join_column3{
+	width: 28%
+}
+
+div #form_join_column2
+div #form_join_column3
+{
+margin-left: 5px;
+padding: 5px;
+}
+
+.boxes { float: left ; padding:4px 2px;margin:2px 0 20px 10px;}
+
+
+	 
+ul#form_join_text { 
+    list-style-type: none; 
+	float: left;
+
+}
+
+ul#form_join_checkboxes { 
+    list-style-type: none; 
+
+}
+
+	/* ----------- form_join_column1 ----------- */
+	 #form_join_column1{
+	 border:solid 2px steelblue;
+	 background:lightblue;
+	 }
+	 
+	 #form_join_column1 h1 {
+	 font-size:14px;
+	 font-weight:bold;
+	 margin-bottom:8px;
+	 }
+	 
+	 #form_join_column1 p{
+	 font-size:11px;
+	 color:#666666;
+	 margin-bottom:20px;
+	 border-bottom:solid 1px #E0FFE0;
+	 padding-bottom:10px;
+	 }
+	 
+	 #form_join_column1 label{
+	 display:block;
+	 font-weight:bold;
+	 text-align:right;
+	 width:140px;
+	 float:left;
+	 }
+	 
+	
+	 
+	 .boxes { float: left ; padding:4px 2px;margin:2px 0 20px 10px;}
+	 .clear { clear: both }
+	 #form_join_column1 #password,#name,#email,#confpwd{
+	 float:left;
+	 font-size:12px;
+	 padding:4px 2px;
+	 border:solid 1px #aacfe4;
+	 width:200px;
+	 margin:2px 0 20px 10px;
+	 }
+
+
+	 #form_join_column2{
+	 display:block;
+	 font-weight:bold;
+	 text-align:right;
+	 width:140px;
+	 float:left;
+	 }
+	 
+	 	 #form_join_column3{
+	 display:block;
+	 font-weight:bold;
+	 text-align:right;
+	 width:140px;
+	 float:left;
+	 }

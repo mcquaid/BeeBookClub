@@ -1,0 +1,109 @@
+
+body {
+    margin: 0;
+    padding: 0;
+	background-image: url("../images/bg7.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}         
+
+
+#content{ 
+    position: relative;
+	float: left; 
+	height: 70%;
+
+}
+           
+#contentheader { 
+    font-size: 20px; 
+	font-weight: bold;
+    font-family: Verdana;
+    text-align: center;
+    color: steelblue;
+}
+
+	 /* ----------- Contact Form ----------- */
+	ul#form_contact_ul{ 
+    list-style-type: none; 
+
+} 
+	form {font-family:Lucida Grande, Lucida Sans Unicode, Verdana, Arial, Helvetica, Sans-Serif;
+	 font-size:12px;}
+	
+	p, button {border:0; margin:0; padding:0;}
+	 .spacer{clear:both; height:1px;}
+
+	 .myform{
+	 margin:0 auto;
+	 width:400px;
+	 padding:14px;
+	 margin-bottom:8px;
+	 }
+	 
+	/* ----------- stylized ----------- */
+	 #stylized{
+	 border:solid 2px steelblue;
+	 background:lightblue;
+	 }
+	 
+	 #stylized h1 {
+	 font-size:14px;
+	 font-weight:bold;
+	 margin-bottom:8px;
+	 }
+	 
+	 #stylized p{
+	 font-size:11px;
+	 color:#666666;
+	 margin-bottom:20px;
+	 border-bottom:solid 1px #E0FFE0;
+	 padding-bottom:10px;
+	 }
+	 
+	 #stylized label{
+	 display:block;
+	 font-weight:bold;
+	 text-align:right;
+	 width:140px;
+	 float:left;
+	 }
+	 
+	 #stylized .small{
+	 color:#FFFFFF;
+	 display:block;
+	 font-size:11px;
+	 font-weight:normal;
+	 text-align:right;
+	 width:140px;
+	 }
+	 
+	 .boxes { float: left ; padding:4px 2px;margin:2px 0 20px 10px;}
+	 .clear { clear: both }
+	 #stylized #password,#name,#message,#email,#confemail{
+	 float:left;
+	 font-size:12px;
+	 padding:4px 2px;
+	 border:solid 1px #aacfe4;
+	 width:200px;
+	 margin:2px 0 20px 10px;
+	 }
+	 
+	 #stylized #submit{
+	 clear:both;
+	 margin-left:150px;
+	 width:125px;
+	 height:31px;
+	 background:steelblue;
+	 text-align:center;
+	 line-height:31px;
+	 color:#FFFFFF;
+	 font-size:11px;
+	 font-weight:bold;
+	 }
+
+
+
+
+
+      

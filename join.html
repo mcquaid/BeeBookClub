@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/bookClubMain.css" />
+  <link rel="stylesheet" type="text/css" href="css/join.css" />
+  <script src="javascript/bookClubJS.js" type="text/javascript"></script>
+  <script src="javascript/join.js" type="text/javascript"></script>
+  <title>The Bee Book Club</title>
+
+</head>
+
+<body>
+
+  
+<div id='container'>
+    <div id='header'>
+		<img src="images/logo1.jpg" alt = "The Book Club Logo" width = "100" height = "100"/>
+	    <h1 id='headertext'> The Bee Book Club</h1>
+		<div id='search-box'>
+        <div class="searchbox">
+        <input type="text" name="search" /><input type="submit" value="Search" />
+        </div>
+    </div>
+    </div>
+	
+	
+	
+    <div id='nav'>
+  	  <ul id="navmenu">
+  	    <li><a href="index.html"> Home </a></li>
+  	    <li><a href="authors.html"> Meet The Authors </a></li>
+		<li><a href="reviews.html"> Reviews </a></li>
+		<li><a href="events.html"> Book Events </a></li>
+  		<li><a href="contest.html"> Short Story Contest </a></li>
+  		<li><a href="join.html"> Join the Club </a></li>
+		<li><a href="contact.html"> Contact Us </a></li>
+  	  </ul>
+    </div>
+	
+
+    <div id='content'>
+	  <h2 id="contentheader"> Join the Book Club </h2>
+			<div id = 'formjoin'>
+				 <form id="form_join" method="post" action="mailto:x12100391@student.ncirl.ie">
+					<!-- text boxes -->
+					<div id ='form_join_column1' class = 'myform'>
+						<ul id = 'form_join_text'>
+						<li><label>Name: </label> <input type="text" name="name" id="name" /></li>
+						<li><label>Email: </label> <input type="text" name="email" id = "email" /></li>
+						<li><label>Password: </label> <input type="password" name="password" id = "password" /></li>
+						<li><label>Confirm Password: </label><input type="password" name="confpwd" id = "confpwd" /></li>
+						
+						</ul>
+					</div>
+					<!-- select favourite genre -->
+					<div id ='form_join_column2'>
+						<p>Favourite Genre</p>
+						<select name= "genre">
+						<option>Fiction</option>
+						<option>Biography</option>
+						<option>Children</option>
+						<option>Crime</option>
+						<option>History</option>
+						</select>
+					</div>
+						<!--check boxes-->
+					<div id ='form_join_column3'>
+						<ul id ='form_join_checkboxes'>
+						<li><label>Read eBooks</label>
+						<input name = "readEbooks" type = "checkbox" 	value = "readEBooks" /></li>
+						<li><label>Own Kindle</label>
+						<input name = "ownKindle" type = "checkbox" 	value = "ownKindle" /></li>
+						<li><label>Amazon discount</label>
+						<input name = "amazonDiscount" type = "checkbox" 	value = "amazonDiscount" /></li>
+						<li><input type="submit" id = "form_join_submit" value="Submit"/></li>
+						</ul>
+					</div>
+				
+			
+			</form>
+			
+		</div>
+    </div>
+
+    <div id='footer'>
+		<p>&copy; 2012 The Bee Book Club. All rights reserved</p>
+     </div>
+</div>  <!-- container -->
+
+</body>
+</html>

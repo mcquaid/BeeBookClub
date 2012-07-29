@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+	background-image: url("../images/bg3.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+
+                    
+#contentheader { 
+    font-size: 20px; 
+    font-family: Verdana;
+    text-align: center;
+    color: steelblue
+}
+            
+#content{ 
+    position: relative;
+    float: left; 
+
+}
+
+
+
+#bookText{
+float: left;
+padding-left: 55px;
+padding-right: 55px;
+padding-top: 55px;
+padding-bottom: 55px;
+font-size: 17px; 
+}
+
+
+
+
+		#form{position: absolute;
+    				top: 25px;
+    				left: 75px;
+    				float: left; 
+    				width: 90%;
+				font-family: Verdana;
+   				color: black;
+			}
+
+		#textarea{position: absolute;
+    				top: 5px;
+    				left: 300px;
+    				float: left; 
+   				width: 90%;
+				font-family: Verdana; 
+    				color: black;
+				font-weight: bold;
+
+				}
+		#right_sidebar{position: absolute;
+    				top: 20px;
+    				left: 500px;
+    				color: steelblue;
+
+
+				}
+
+		#past{
+    				position: absolute;
+    				top: 500px;
+    				left: 50px;
+				font-family: Verdana; 
+				color: black;
+				font-size: 17px; 
+				text-decoration: none
+				}
+				
+				
+
+
+
+      
+
+      
