@@ -1,4 +1,5 @@
   window.onload = initAll;
+    
   	function initAll() {
   	RotateImages(0);
 	RotateImages2(0);
@@ -7,13 +8,13 @@
   }
 
 
-    var ImageArr1 = new Array("emperorChil.jpg","emperorChil_2.jpg");
+  var ImageArr1 = new Array("emperorChil.jpg","emperorChil_2.jpg");  
   
    function RotateImages(Start){
   
   	var a = "ImageArr1";
     	var b = document.getElementById('Rotating1');
-    	if(Start>=5)
+    	if(Start>=2)
     		Start=0;
     	b.src = "images/" + ImageArr1[Start];
     	window.setTimeout("RotateImages("+(Start+1)+")",2500);
@@ -24,7 +25,7 @@
   
   	var a = "ImageArr2";
     	var b = document.getElementById('Rotating2');
-    	if(Start>=5)
+    	if(Start>=2)
     		Start=0;
     	b.src = "images/" + ImageArr2[Start];
     	window.setTimeout("RotateImages2("+(Start+1)+")",2500);
@@ -35,7 +36,7 @@
   
   	var a = "ImageArr3";
     	var b = document.getElementById('Rotating3');
-    	if(Start>=5)
+    	if(Start>=4)
     		Start=0;
     	b.src = "images/" + ImageArr3[Start];
     	window.setTimeout("RotateImages3("+(Start+1)+")",2500);
@@ -46,7 +47,7 @@
   
   	var a = "ImageArr4";
     	var b = document.getElementById('Rotating4');
-    	if(Start>=5)
+    	if(Start>=4)
     		Start=0;
     	b.src = "images/" + ImageArr4[Start];
     	window.setTimeout("RotateImages4("+(Start+1)+")",2500);
