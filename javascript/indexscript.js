@@ -1,5 +1,5 @@
   window.onload = initAll;
-  
+  var ImageArr1 = new Array("emperorChil.jpg","emperorChil_2.jpg");        
   	function initAll() {
   	RotateImages(0);
 	RotateImages2(0);
@@ -7,7 +7,7 @@
 	RotateImages4(0);
   }
 
-  var ImageArr1 = new Array("emperorChil.jpg","emperorChil_2.jpg");      
+
    function RotateImages(Start){
   
   	var a = "ImageArr1";
